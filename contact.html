@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>
+ZePta_Photography_PortFolio
+</title>
+<style>
+p.para3{
+background-image:url(snow.jpg);
+background-repeat:no-repeat;
+color:red;
+font-size:55px;
+font-style:cooper;
+padding:55px;
+height:90px;
+margin:10px;
+margin-bottom:2px;
+border-radius:5px;
+}
+ul.one{
+list-style:none;
+text-align:center;
+border-width:10px;
+border-radius:5px;
+background-color:grey;
+margin:10px;
+margin-top:0px;
+}
+ul.one li{
+font-size:20px;
+font-family:calibry;
+display:inline
+
+}
+ul.one li a{
+text-decoration:none;
+padding:65px;
+}
+ul.one li a:hover{
+color:orange;
+}
+
+
+
+
+div.last1{
+background-color:#273746;
+margin:10px;
+margin-top:10px;
+}
+td.four{
+align:left;
+}
+p.para5{
+font-size:20px;
+font-weight:bold;
+color:black;
+}
+ul.new3{
+list-style:none;
+line-height:1.5em;
+}
+ul.new3 li a{
+color:white;
+text-decoration:none;
+font-size:15px;
+
+}
+ul.new3 li a:hover{
+color:black;
+
+}
+
+div.con{
+padding:20px;
+}
+.in1{
+padding:10px;
+}
+.in2{
+padding:20px;
+}
+.in3{
+padding:10px;
+}
+.contact{
+padding:20px;
+}
+.f1{
+color:#8D6E63;
+font-size:35px;
+padding:20px;
+
+}
+</style>
+</head>
+<body bgcolor=black>
+<p class="para3">ZePta<br> Photography
+<font face=vedarna size=20 align-right=bottom color=gold><i>Sence of the life</f>
+</p>
+<ul class="one">
+<li><a href="index.html">Home</a></li>
+<li><a href="portfolio.html ">Portfolio</a></li>
+<li><a href="AboutUs.html">About</a></li>
+<li><a href="signIn.html">Sign in</a></li>
+<li><a href="contact.html">Contact<a></li>
+</ul>
+<div class="mid">
+<table class="contact">
+<tr>
+<td>
+<form>
+<p class="f1"><i>Let's talk</i></p><div class="con">
+<input class="in1" type="text" text="Name" value="Name"><br><br>
+<input class="in1" type="text" text="E-Mail" value="E-Mail"><br><br>
+<input class="in1" type="text" text="Subject" value="Subject"><br><br>
+<textarea class="in2" row="100" cols="60" value="Your Comments goes here">Your Comments goes here</textarea>
+
+<br><br>
+<input class="in3" type="submit" value="submit">
+</div>
+</form>
+</td>
+<td align="center">
+<div class="moveimg">
+<center><img class="myslides" src="s1.jpg"></c>
+<center><img class="myslides" src="s2.jpg"></c>
+<center><img class="myslides" src="s3.jpg"></c>
+<center><img class="myslides" src="s4.jpg"></c>
+<center><img class="myslides" src="s5.jpg"></c>
+<center><img class="myslides" src="s6.jpg"></c>
+<center><img class="myslides" src="s7.jpg"></c>
+</div>
+</td>
+</tr>
+</table>
+</table>
+</div>
+<script type="text/javascript">
+var slideIndex = 0;
+carousel();
+function carousel() {
+ var i;
+ var x = document.getElementsByClassName("myslides");
+ for(i=0; i<x.length;i++){
+ x[i].style.display="none";
+}
+slideIndex++;
+if(slideIndex > x.length){slideIndex=1}
+x[slideIndex-1].style.display="block";
+setTimeout(carousel,2000);// change image every 2 seconds
+}
+
+</script>
+
+
+<div class="last1" align="left">
+<table class="quick">
+<tr class="last">
+<td class="four">
+<p class="para5">Quick Links</p>
+<ul class="new3">
+<li><a href=" ">Home</a></li>
+<li><a href=" ">Portfolio</a></li>
+<li><a href=" ">About</a></li>
+<li><a href=" ">Contact</a></li>
+<li><a href=" ">Sign in</a></li>
+</ul>
+</td>
+</div>
+
+
+
+
+</body>
+</html>
